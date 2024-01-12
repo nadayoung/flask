@@ -20,7 +20,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: nada0/github-actions-app
+        image: nada0/github-action
         tags: v3, latest
         registry: docker.io
         username: nada0
