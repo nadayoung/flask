@@ -21,7 +21,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: nada0/github-action
-        tags: v3, latest
+        tags: ${{ github.sha }}, v1.0 # 원래: v3, latest
         registry: docker.io
         username: nada0
         password: dckr_pat_xag_0c2X_yb_EbaD4U9qTS4m7J0
